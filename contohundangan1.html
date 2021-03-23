@@ -17,12 +17,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
 
-    <!-- <audio autoplay loop>
-         <source src="horse.ogg" type="audio/ogg">
-        <source src="assets/bg-sound.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-     </audio> -->
-
      <audio id="audioplayer" src="assets/bg-sound.mp3" type="audio/mpeg" loop="loop"> </audio>
 </head>
 <body>
@@ -113,14 +107,54 @@
         <path d="M0,0h50v4.3c0,0-6.6,6.6-25.5,3.8S0,6,0,6V0z"/>
         </svg>
 
-        <div class="box-content">
+        <div class="box-content" data-aos="zoom-in" data-aos-duration="3000">
             <div class="content">
                 <h3>Google Maps</h3>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.724405318998!2d115.17462069999999!3d-8.717699000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd246b99a2b95d5%3A0xa5825a73e0b62945!2sSky%20Garden%20Bali!5e0!3m2!1sid!2sid!4v1616418439231!5m2!1sid!2sid" allowfullscreen="" loading="lazy"></iframe>
-                <button>Lihat Map</button>
+                <br>
+                <button onclick="window.location.href='https://maps.google.com/maps?ll=-8.717699,115.174621&z=16&t=m&hl=id&gl=ID&mapclient=embed&cid=11926194216968268101'"
+                >Lihat Map</button>
             </div>
         </div>
     </section>
+
+    <section class="galeri">
+        <div class="content">
+            <h3>Galeri Kami</h3>
+            <div class="grid-galeri">
+                <div class="box">
+                    <img data-aos="flip-right" data-aos-duration="3000" src="https://images.unsplash.com/photo-1535185384036-28bbc8035f28?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="">
+                </div>
+                <div class="box">
+                    <img data-aos="flip-left" data-aos-duration="3000" src="https://images.unsplash.com/photo-1507915977619-6ccfe8003ae6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="">
+                </div>
+                <div class="box">
+                    <img data-aos="flip-right" data-aos-duration="3000" src="https://images.unsplash.com/photo-1519741196428-6a2175fa2557?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="">
+                </div>
+                <div class="box">
+                    <img data-aos="flip-left" data-aos-duration="3000" src="https://images.unsplash.com/photo-1530019163123-f33edadb3833?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="">
+                </div>
+            </div>
+
+            <p>"Do'a Terbaik untuk Kami Berdua"</p>
+        </div>
+    </section>
+
+    <section class="footer">
+        <svg class="separator-top-theme" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 50 10" style="enable-background:new 0 0 50 10;" xml:space="preserve">
+        <path d="M0,0h50v4.3c0,0-6.6,6.6-25.5,3.8S0,6,0,6V0z"/>
+        </svg>
+
+        <p>
+            Production of <br>
+            <a href="https://wa.me/6287866253339/">Mauve Studio</a>
+            /
+            <a href="https://instagram.com/rezapryudhi/">Reza Prayudhi</a>
+        </p>
+        
+    </section>
+
     <script>
         AOS.init();
     </script>
